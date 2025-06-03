@@ -1,0 +1,25 @@
+branches:
+  - main
+  - name: develop
+    prerelease: beta
+  - name: feature/*
+    prerelease: alpha
+  - name: release/*
+    prerelease: rc
+  - name: hotfix/*
+    prerelease: hf
+
+plugins:
+  - "@semantic-release/commit-analyzer"
+  - "@semantic-release/release-notes-generator"
+  - "@semantic-release/changelog"
+  - "@semantic-release/npm"
+  - 
+    - "@semantic-release/git"
+    - assets:
+        - package.json
+        - CHANGELOG.md
+      message: |
+        chore(release): 🚀 ${nextRelease.version} [skip ci]
+
+        ${nextRelease.notes}
