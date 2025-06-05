@@ -1,3 +1,16 @@
+# 1.0.0-beta.1 (2025-06-04)
+
+
+### Bug Fixes
+
+* tsconfig adjusts ([8387a0b](https://github.com/LerianStudio/lib-logs/commit/8387a0bf2c5d498783b99ac5d733559d8fe8406e))
+
+
+### Features
+
+* Implemented interceptor ([d1c4930](https://github.com/LerianStudio/lib-logs/commit/d1c4930e49e77385574fcf20f33d2735c007e8e5))
+* Implemented main logger ([979c48e](https://github.com/LerianStudio/lib-logs/commit/979c48e517cc7cfb00a98861a2536b45e5d3cc3c))
+
 # [1.1.0](https://github.com/LerianStudio/lib-js-boilerplate/compare/v1.0.0...v1.1.0) (2025-05-22)
 
 
