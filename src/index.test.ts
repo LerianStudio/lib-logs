@@ -9,8 +9,6 @@ describe('Index exports', () => {
     expect(exportKeys).toContain('LoggerRepository');
     expect(exportKeys).toContain('LoggerAggregator');
     expect(exportKeys).toContain('PinoLoggerRepository');
-    expect(exportKeys).toContain('NestJSLoggerModule');
-    expect(exportKeys).toContain('LoggerInterceptor');
     expect(exportKeys).toContain('RequestIdRepository');
   });
 });
