@@ -1,3 +1,10 @@
+## [1.0.2-beta.2](https://github.com/LerianStudio/lib-logs/compare/v1.0.2-beta.1...v1.0.2-beta.2) (2025-06-05)
+
+
+### Bug Fixes
+
+* Adjusted dependencies ([4402dad](https://github.com/LerianStudio/lib-logs/commit/4402dad09a202c7501019fc9be5f0a9f6b92f988))
+
 ## [1.0.2-beta.1](https://github.com/LerianStudio/lib-logs/compare/v1.0.1...v1.0.2-beta.1) (2025-06-05)
 
 
