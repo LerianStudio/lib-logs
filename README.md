@@ -19,7 +19,7 @@ A sophisticated logging library for Node.js applications with built-in request a
 ## 🚀 Installation
 
 ```bash
-npm install lib-logs
+npm install @lerian/lib-logs
 ```
 
 ## 📖 Usage
@@ -58,7 +58,7 @@ async function handleRequest() {
 
 ```typescript
 import { Module } from '@nestjs/common';
-import { NestJSLoggerModule } from 'lib-logs';
+import { NestJSLoggerModule } from 'lib-logs/nestjs';
 
 @Module({
   imports: [
@@ -118,7 +118,7 @@ To automatically log all HTTP requests and responses, register the `LoggerInterc
 ```typescript
 import { Module } from '@nestjs/common';
 import { APP_INTERCEPTOR } from '@nestjs/core';
-import { NestJSLoggerModule, LoggerInterceptor } from 'lib-logs';
+import { NestJSLoggerModule, LoggerInterceptor } from 'lib-logs/nestjs';
 
 @Module({
   imports: [
