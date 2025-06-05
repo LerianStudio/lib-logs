@@ -4,6 +4,8 @@
 ### Bug Fixes
 
 * Adjusted dependencies ([4402dad](https://github.com/LerianStudio/lib-logs/commit/4402dad09a202c7501019fc9be5f0a9f6b92f988))
+* Changed lib name ([e2ee8c1](https://github.com/LerianStudio/lib-logs/commit/e2ee8c179e2e52c4cdf85c3f1c61cef99c098d11))
+* Version number ([291dfbf](https://github.com/LerianStudio/lib-logs/commit/291dfbf4e6e84d02e9c423b4e7d9a4344b321018))
 
 ## [1.0.2-beta.1](https://github.com/LerianStudio/lib-logs/compare/v1.0.1...v1.0.2-beta.1) (2025-06-05)
 
