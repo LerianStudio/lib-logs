@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/LerianStudio/lib-logs/compare/v1.0.0...v1.0.1) (2025-06-05)
+
+
+### Bug Fixes
+
+* Import error merging NestJS with normal ones ([c010ab2](https://github.com/LerianStudio/lib-logs/commit/c010ab28cfca08199da07dfc1eb9d7f3abf1d578))
+
 # 1.0.0 (2025-06-05)
 
 
