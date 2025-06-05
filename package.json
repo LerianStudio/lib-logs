@@ -1,6 +1,6 @@
 {
-  "name": "lib-logs",
-  "version": "1.0.1",
+  "name": "@lerian/lib-logs",
+  "version": "1.0.2-beta.1",
   "description": "A library for log aggregation for node applications, and support for NestJS.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
