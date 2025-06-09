@@ -1,3 +1,10 @@
+# [1.1.0-alpha.1](https://github.com/LerianStudio/lib-logs/compare/v1.0.2...v1.1.0-alpha.1) (2025-06-09)
+
+
+### Features
+
+* configure publish of lib on npm ([a00522b](https://github.com/LerianStudio/lib-logs/commit/a00522b4ad72c4e2b1c339bfa8a4ffe17edcf343))
+
 ## [1.0.2](https://github.com/LerianStudio/lib-logs/compare/v1.0.1...v1.0.2) (2025-06-05)
 
 
