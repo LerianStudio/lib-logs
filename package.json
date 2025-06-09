@@ -1,6 +1,6 @@
 {
-  "name": "@lerian/lib-logs",
-  "version": "1.0.3-beta.1",
+  "name": "@lerianstudio/lib-logs",
+  "version": "1.1.0-alpha.3",
   "description": "A library for log aggregation for node applications, and support for NestJS.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -70,5 +70,8 @@
     "pino": "^9.7.0",
     "pino-pretty": "^13.0.0",
     "uuid": "^11.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
