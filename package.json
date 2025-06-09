@@ -1,5 +1,5 @@
 {
-  "name": "@lerian/lib-logs",
+  "name": "@lerianstudio/lib-logs",
   "version": "1.0.2",
   "description": "A library for log aggregation for node applications, and support for NestJS.",
   "main": "dist/index.js",
