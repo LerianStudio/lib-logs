@@ -1,3 +1,9 @@
+# [1.1.0-alpha.3](https://github.com/LerianStudio/lib-logs/compare/v1.1.0-alpha.2...v1.1.0-alpha.3) (2025-06-09)
+
+
+### Bug Fixes
+
+* Adjusted dependencies ([4402dad](https://github.com/LerianStudio/lib-logs/commit/4402dad09a202c7501019fc9be5f0a9f6b92f988))
 
 # [1.1.0-alpha.2](https://github.com/LerianStudio/lib-logs/compare/v1.1.0-alpha.1...v1.1.0-alpha.2) (2025-06-09)
 
