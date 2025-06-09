@@ -1,3 +1,10 @@
+# [1.1.0-beta.2](https://github.com/LerianStudio/lib-logs/compare/v1.1.0-beta.1...v1.1.0-beta.2) (2025-06-09)
+
+
+### Bug Fixes
+
+* TSConfig ([a7b8bdf](https://github.com/LerianStudio/lib-logs/commit/a7b8bdf1b003de161e0b949684e8242ccd90342f))
+
 # [1.1.0-beta.1](https://github.com/LerianStudio/lib-logs/compare/v1.0.3-beta.1...v1.1.0-beta.1) (2025-06-09)
 
 
