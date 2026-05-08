@@ -1,3 +1,17 @@
+# [1.1.0](https://github.com/LerianStudio/lib-logs/compare/v1.0.2...v1.1.0) (2025-06-09)
+
+
+### Bug Fixes
+
+* Adjusted dependencies ([4402dad](https://github.com/LerianStudio/lib-logs/commit/4402dad09a202c7501019fc9be5f0a9f6b92f988))
+* TSConfig ([a7b8bdf](https://github.com/LerianStudio/lib-logs/commit/a7b8bdf1b003de161e0b949684e8242ccd90342f))
+
+
+### Features
+
+* configure publish of lib on npm ([a1be675](https://github.com/LerianStudio/lib-logs/commit/a1be675da525dde1976bcdb8c035be2760be7e1b))
+* configure publish of lib on npm ([a00522b](https://github.com/LerianStudio/lib-logs/commit/a00522b4ad72c4e2b1c339bfa8a4ffe17edcf343))
+
 # [1.1.0-beta.2](https://github.com/LerianStudio/lib-logs/compare/v1.1.0-beta.1...v1.1.0-beta.2) (2025-06-09)
 
 
