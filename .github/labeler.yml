@@ -1,0 +1,61 @@
+# Pull Request Labeler configuration
+#
+# Labels are aligned with the pr_title_scopes in pr-validation.yml.
+
+# Domain layer
+domain:
+  - changed-files:
+      - any-glob-to-any-file: 'src/domain/**/*'
+
+# Infrastructure layer
+infrastructure:
+  - changed-files:
+      - any-glob-to-any-file: 'src/infrastructure/**/*'
+
+# NestJS integration
+nestjs:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'src/nestjs.ts'
+          - 'src/nestjs.test.ts'
+
+# Build and tooling scripts
+scripts:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'scripts/**/*'
+          - 'Makefile'
+
+# Application and tooling configuration
+config:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'tsconfig*.json'
+          - 'eslint.config.*'
+          - '.eslintrc*'
+
+# Continuous integration pipelines and shared workflows
+ci:
+  - changed-files:
+      - any-glob-to-any-file: '.github/workflows/**/*'
+
+# Markdown docs
+docs:
+  - changed-files:
+      - any-glob-to-any-file:
+          - '**/*.md'
+          - 'docs/**/*'
+
+# Tests
+tests:
+  - changed-files:
+      - any-glob-to-any-file:
+          - '**/*.test.ts'
+          - '**/*.spec.ts'
+
+# npm dependencies
+deps:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'package.json'
+          - 'package-lock.json'
