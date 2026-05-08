@@ -3,6 +3,17 @@ name: Release
 on:
   push:
     branches: [main, release-candidate, develop]
+    paths-ignore:
+      - '.github/**'
+      - '**.md'
+      - 'docs/**'
+      - 'LICENSE'
+      - '.gitignore'
+      - 'eslint.config.*'
+      - '.eslintrc*'
+      - '.prettierrc*'
+      - 'prettier.config.*'
+      - 'tsconfig.eslint.json'
 
 permissions:
   id-token: write
