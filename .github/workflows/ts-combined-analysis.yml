@@ -1,0 +1,39 @@
+name: TS Combined Analysis
+
+on:
+  pull_request:
+    branches: [develop, release-candidate, main]
+    types: [opened, synchronize, reopened]
+    paths-ignore:
+      - '**.md'
+      - 'docs/**'
+      - '.github/**'
+      - 'LICENSE'
+      - '.gitignore'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  pull-requests: write
+  security-events: write
+
+jobs:
+  ts-analysis:
+    name: TS Analysis
+    uses: LerianStudio/github-actions-shared-workflows/.github/workflows/frontend-pr-analysis.yml@v1.28.5
+    with:
+      node_version: '22'
+      package_manager: 'npm'
+      coverage_threshold: 80
+      fail_on_coverage_threshold: true
+      app_name_prefix: 'lib-logs'
+      enable_lint: true
+      enable_typecheck: true
+      enable_security: true
+      enable_tests: true
+      enable_coverage: true
+      enable_build: true
+    secrets: inherit

@@ -54,5 +54,5 @@ module.exports = defineConfig([
       ],
     },
   },
-  globalIgnores(['**/.eslintrc.js']),
+  globalIgnores(['**/.eslintrc.js', 'eslint.config.js', 'dist/**', 'node_modules/**']),
 ]);
