@@ -23,7 +23,7 @@
     "email": "contato@lerian.studio",
     "url": "https://lerian.studio"
   },
-  "license": "ISC",
+  "license": "Elastic-2.0",
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.28.0",
